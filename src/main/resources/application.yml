@@ -1,0 +1,10 @@
+
+# LDAP连接配置
+spring:
+  ldap:
+    urls: ldap://111.231.119.253:389
+    base: c=cn
+    username: cn=Manager,c=cn
+    password: 123456
+server:
+  port: 8888
